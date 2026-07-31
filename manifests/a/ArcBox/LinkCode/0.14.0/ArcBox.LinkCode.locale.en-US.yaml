@@ -1,0 +1,45 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ArcBox.LinkCode
+PackageVersion: 0.14.0
+PackageLocale: en-US
+Publisher: ArcBox
+PublisherUrl: https://arcbox.dev/
+PublisherSupportUrl: https://github.com/arcboxlabs/linkcode/issues
+PrivacyUrl: https://linkcode.ai/privacy
+Author: ArcBox, Inc.
+PackageName: LinkCode
+PackageUrl: https://linkcode.ai/
+License: BUSL-1.1
+LicenseUrl: https://github.com/arcboxlabs/linkcode/blob/HEAD/LICENSE
+Copyright: Copyright © 2026 ArcBox, Inc. All rights reserved.
+ShortDescription: Every code agent in the palm of your hand.
+Description: |-
+  LinkCode is one workspace for all your coding agents. A host on your machine
+  takes over Claude Code, Codex, OpenCode, Pi, and Grok Build, normalizes their
+  divergent events into a single contract, and serves the same threads to every
+  client — start an agent at your desk, keep an eye on it from anywhere.
+Moniker: linkcode
+Tags:
+- agent
+- ai
+- claude
+- codex
+- developer-tools
+- electron
+- opencode
+ReleaseNotes: |-
+  0.14.0 (2026-07-31)
+  Features
+  - desktop: add update polling and sidebar prompt (adda937)
+  Bug Fixes
+  - desktop: settle inactive update checks (78a99d3)
+  - release: install both CPU keyring bindings (0bddfce)
+  - release: keep builder Linux output layouts (524b76e)
+  - release: let staging select builder architecture (24bd573)
+  - release: stage desktop dependencies per architecture (735a232)
+  - ui,workbench,desktop,webview: swap the thread-title view transition for a header enter animation (#354) (fe034b7)
+ReleaseNotesUrl: https://github.com/arcboxlabs/linkcode/releases/tag/v0.14.0
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
