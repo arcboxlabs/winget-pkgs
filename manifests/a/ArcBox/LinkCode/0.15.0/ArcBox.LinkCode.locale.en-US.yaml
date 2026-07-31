@@ -1,0 +1,45 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ArcBox.LinkCode
+PackageVersion: 0.15.0
+PackageLocale: en-US
+Publisher: ArcBox
+PublisherUrl: https://arcbox.dev/
+PublisherSupportUrl: https://github.com/arcboxlabs/linkcode/issues
+PrivacyUrl: https://linkcode.ai/privacy
+Author: ArcBox, Inc.
+PackageName: LinkCode
+PackageUrl: https://linkcode.ai/
+License: BUSL-1.1
+LicenseUrl: https://github.com/arcboxlabs/linkcode/blob/HEAD/LICENSE
+Copyright: Copyright © 2026 ArcBox, Inc. All rights reserved.
+ShortDescription: Every code agent in the palm of your hand.
+Description: |-
+  LinkCode is one workspace for all your coding agents. A host on your machine
+  takes over Claude Code, Codex, OpenCode, Pi, and Grok Build, normalizes their
+  divergent events into a single contract, and serves the same threads to every
+  client — start an agent at your desk, keep an eye on it from anywhere.
+Moniker: linkcode
+Tags:
+- agent
+- ai
+- claude
+- codex
+- developer-tools
+- electron
+- opencode
+ReleaseNotes: |-
+  0.15.0 (2026-07-31)
+  Features
+  - chat: add conversation minimap geometry (ab99e29)
+  - chat: add the conversation minimap rail (5553c1c)
+  - chat: expose the conversation virtualizer handle (8c9aa77)
+  - mock: seed a long thread in the dev mock host (d72b564)
+  Bug Fixes
+  - chat: steady the minimap rail and its keyboard path (6e27750)
+  - chat: tune the minimap rail down to its quiet form (4726df8)
+  - desktop: keep the sidebar translucent over the native backdrop (#360) (70b50b6)
+ReleaseNotesUrl: https://github.com/arcboxlabs/linkcode/releases/tag/v0.15.0
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
