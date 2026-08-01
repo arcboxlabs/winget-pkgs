@@ -1,0 +1,26 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: ArcBox.LinkCode
+PackageVersion: 0.16.0
+InstallerLocale: en-US
+InstallerType: nullsoft
+Scope: user
+UpgradeBehavior: install
+Protocols:
+- linkcode
+ProductCode: 8026af0d-384e-5456-9fd1-2393808153ee
+ReleaseDate: 2026-08-01
+AppsAndFeaturesEntries:
+- DisplayName: LinkCode 0.16.0
+  Publisher: ArcBox Labs
+  ProductCode: 8026af0d-384e-5456-9fd1-2393808153ee
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/arcboxlabs/linkcode/releases/download/v0.16.0/LinkCode-0.16.0-x64.exe
+  InstallerSha256: 89F90C2A0DC06FD5868EDB85EEF0FCE244D745232CD33A8A263D5E4364D4EEEB
+- Architecture: arm64
+  InstallerUrl: https://github.com/arcboxlabs/linkcode/releases/download/v0.16.0/LinkCode-0.16.0-arm64.exe
+  InstallerSha256: 678221BC1912BD0D27C757CD47B17CECB0291944855D1D7FE3D6F16C1116EB34
+ManifestType: installer
+ManifestVersion: 1.12.0

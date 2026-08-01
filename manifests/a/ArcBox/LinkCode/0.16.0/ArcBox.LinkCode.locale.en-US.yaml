@@ -1,0 +1,47 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ArcBox.LinkCode
+PackageVersion: 0.16.0
+PackageLocale: en-US
+Publisher: ArcBox
+PublisherUrl: https://arcbox.dev/
+PublisherSupportUrl: https://github.com/arcboxlabs/linkcode/issues
+PrivacyUrl: https://linkcode.ai/privacy
+Author: ArcBox, Inc.
+PackageName: LinkCode
+PackageUrl: https://linkcode.ai/
+License: BUSL-1.1
+LicenseUrl: https://github.com/arcboxlabs/linkcode/blob/HEAD/LICENSE
+Copyright: Copyright © 2026 ArcBox, Inc. All rights reserved.
+ShortDescription: Every code agent in the palm of your hand.
+Description: |-
+  LinkCode is one workspace for all your coding agents. A host on your machine
+  takes over Claude Code, Codex, OpenCode, Pi, and Grok Build, normalizes their
+  divergent events into a single contract, and serves the same threads to every
+  client — start an agent at your desk, keep an eye on it from anywhere.
+Moniker: linkcode
+Tags:
+- agent
+- ai
+- claude
+- codex
+- developer-tools
+- electron
+- opencode
+ReleaseNotes: |-
+  0.16.0 (2026-08-01)
+  Features
+  - agent-adapter: report each agent's configured default model and effort (9aab5dc)
+  - desktop: show update download progress (#362) (9fe3aa8)
+  - resources: show current plan in panel (#358) (a0a7aab)
+  - schema: carry the agent's own default model and effort in the start catalog (0c6c7ee)
+  - ui: prefer the agent's configured default over the built-in model guess (b72a1aa)
+  Bug Fixes
+  - agent-adapter: read codex config.toml from the app-server environment (9f3161d)
+  - daemon: bound AI gateway startup (00608da)
+  - ui: keep a catalog effort with the model it belongs to (f8cf515)
+  - ui: preserve local font query receiver (b6a5faa)
+ReleaseNotesUrl: https://github.com/arcboxlabs/linkcode/releases/tag/v0.16.0
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
